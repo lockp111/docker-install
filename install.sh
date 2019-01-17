@@ -1,7 +1,7 @@
 #! /bin/bash
 
 sudo apt-get update
-sudo apt-get install \
+sudo apt-get -y install \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -15,6 +15,6 @@ sudo add-apt-repository \
     stable"
 
 sudo apt-get update
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 
 sudo usermod -aG docker ${USER}
