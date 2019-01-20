@@ -1,5 +1,5 @@
 # docker-install
-linux install docker
+`ubuntu` install docker
 
 ## Usage
 ```shell
